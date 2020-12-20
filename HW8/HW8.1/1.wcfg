@@ -1,0 +1,124 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<wave_config>
+   <wave_state>
+   </wave_state>
+   <db_ref_list>
+      <db_ref path="C:/Users/TUTEL-50/Desktop/Homework8/HW8/aaaa_isim_beh.wdb" id="1" type="auto">
+         <top_modules>
+            <top_module name="aaaa" />
+            <top_module name="std_logic_1164" />
+            <top_module name="std_logic_arith" />
+            <top_module name="std_logic_unsigned" />
+         </top_modules>
+      </db_ref>
+   </db_ref_list>
+   <WVObjectSize size="6" />
+   <wvobject fp_name="/aaaa/clock" type="logic" db_ref_id="1">
+      <obj_property name="ElementShortName">clock</obj_property>
+      <obj_property name="ObjectShortName">clock</obj_property>
+   </wvobject>
+   <wvobject fp_name="/aaaa/reset" type="logic" db_ref_id="1">
+      <obj_property name="ElementShortName">reset</obj_property>
+      <obj_property name="ObjectShortName">reset</obj_property>
+   </wvobject>
+   <wvobject fp_name="/aaaa/clock_period" type="other" db_ref_id="1">
+      <obj_property name="ElementShortName">clock_period</obj_property>
+      <obj_property name="ObjectShortName">clock_period</obj_property>
+   </wvobject>
+   <wvobject fp_name="group11" type="group">
+      <obj_property name="label">PC1</obj_property>
+      <obj_property name="DisplayName">label</obj_property>
+      <wvobject fp_name="/aaaa/uut/PC1/clk" type="logic" db_ref_id="1">
+         <obj_property name="ElementShortName">clk</obj_property>
+         <obj_property name="ObjectShortName">clk</obj_property>
+      </wvobject>
+      <wvobject fp_name="/aaaa/uut/PC1/rst" type="logic" db_ref_id="1">
+         <obj_property name="ElementShortName">rst</obj_property>
+         <obj_property name="ObjectShortName">rst</obj_property>
+      </wvobject>
+      <wvobject fp_name="/aaaa/uut/PC1/d" type="array" db_ref_id="1">
+         <obj_property name="ElementShortName">d[15:0]</obj_property>
+         <obj_property name="ObjectShortName">d[15:0]</obj_property>
+      </wvobject>
+      <wvobject fp_name="/aaaa/uut/PC1/q" type="array" db_ref_id="1">
+         <obj_property name="ElementShortName">q[15:0]</obj_property>
+         <obj_property name="ObjectShortName">q[15:0]</obj_property>
+      </wvobject>
+   </wvobject>
+   <wvobject fp_name="group15" type="group">
+      <obj_property name="label">IM</obj_property>
+      <obj_property name="DisplayName">label</obj_property>
+      <wvobject fp_name="/aaaa/uut/IM/inst_a" type="array" db_ref_id="1">
+         <obj_property name="ElementShortName">inst_a[15:0]</obj_property>
+         <obj_property name="ObjectShortName">inst_a[15:0]</obj_property>
+      </wvobject>
+      <wvobject fp_name="/aaaa/uut/IM/rd" type="array" db_ref_id="1">
+         <obj_property name="ElementShortName">rd[15:0]</obj_property>
+         <obj_property name="ObjectShortName">rd[15:0]</obj_property>
+      </wvobject>
+      <wvobject fp_name="/aaaa/uut/IM/inst_register" type="array" db_ref_id="1">
+         <obj_property name="ElementShortName">inst_register[44:0]</obj_property>
+         <obj_property name="ObjectShortName">inst_register[44:0]</obj_property>
+      </wvobject>
+   </wvobject>
+   <wvobject fp_name="group30" type="group">
+      <obj_property name="label">ALU</obj_property>
+      <obj_property name="DisplayName">label</obj_property>
+      <wvobject fp_name="/aaaa/uut/alu_forPC/a" type="array" db_ref_id="1">
+         <obj_property name="ElementShortName">a[15:0]</obj_property>
+         <obj_property name="ObjectShortName">a[15:0]</obj_property>
+      </wvobject>
+      <wvobject fp_name="/aaaa/uut/alu_forPC/b" type="array" db_ref_id="1">
+         <obj_property name="ElementShortName">b[15:0]</obj_property>
+         <obj_property name="ObjectShortName">b[15:0]</obj_property>
+      </wvobject>
+      <wvobject fp_name="/aaaa/uut/alu_forPC/s" type="array" db_ref_id="1">
+         <obj_property name="ElementShortName">s[15:0]</obj_property>
+         <obj_property name="ObjectShortName">s[15:0]</obj_property>
+      </wvobject>
+      <wvobject fp_name="/aaaa/uut/alu_forPC/a_sel" type="array" db_ref_id="1">
+         <obj_property name="ElementShortName">a_sel[3:0]</obj_property>
+         <obj_property name="ObjectShortName">a_sel[3:0]</obj_property>
+      </wvobject>
+      <wvobject fp_name="/aaaa/uut/alu_forPC/carry_out" type="logic" db_ref_id="1">
+         <obj_property name="ElementShortName">carry_out</obj_property>
+         <obj_property name="ObjectShortName">carry_out</obj_property>
+      </wvobject>
+      <wvobject fp_name="/aaaa/uut/alu_forPC/overflow" type="logic" db_ref_id="1">
+         <obj_property name="ElementShortName">overflow</obj_property>
+         <obj_property name="ObjectShortName">overflow</obj_property>
+      </wvobject>
+      <wvobject fp_name="/aaaa/uut/alu_forPC/negative" type="logic" db_ref_id="1">
+         <obj_property name="ElementShortName">negative</obj_property>
+         <obj_property name="ObjectShortName">negative</obj_property>
+      </wvobject>
+      <wvobject fp_name="/aaaa/uut/alu_forPC/zero" type="logic" db_ref_id="1">
+         <obj_property name="ElementShortName">zero</obj_property>
+         <obj_property name="ObjectShortName">zero</obj_property>
+      </wvobject>
+      <wvobject fp_name="/aaaa/uut/alu_forPC/mux4_out1" type="array" db_ref_id="1">
+         <obj_property name="ElementShortName">mux4_out1[15:0]</obj_property>
+         <obj_property name="ObjectShortName">mux4_out1[15:0]</obj_property>
+      </wvobject>
+      <wvobject fp_name="/aaaa/uut/alu_forPC/mux2_out1" type="array" db_ref_id="1">
+         <obj_property name="ElementShortName">mux2_out1[15:0]</obj_property>
+         <obj_property name="ObjectShortName">mux2_out1[15:0]</obj_property>
+      </wvobject>
+      <wvobject fp_name="/aaaa/uut/alu_forPC/mux2_out2" type="array" db_ref_id="1">
+         <obj_property name="ElementShortName">mux2_out2[15:0]</obj_property>
+         <obj_property name="ObjectShortName">mux2_out2[15:0]</obj_property>
+      </wvobject>
+      <wvobject fp_name="/aaaa/uut/alu_forPC/s_out" type="array" db_ref_id="1">
+         <obj_property name="ElementShortName">s_out[15:0]</obj_property>
+         <obj_property name="ObjectShortName">s_out[15:0]</obj_property>
+      </wvobject>
+      <wvobject fp_name="/aaaa/uut/alu_forPC/fa_cout" type="array" db_ref_id="1">
+         <obj_property name="ElementShortName">fa_cout[15:0]</obj_property>
+         <obj_property name="ObjectShortName">fa_cout[15:0]</obj_property>
+      </wvobject>
+      <wvobject fp_name="/aaaa/uut/alu_forPC/zero_port" type="logic" db_ref_id="1">
+         <obj_property name="ElementShortName">zero_port</obj_property>
+         <obj_property name="ObjectShortName">zero_port</obj_property>
+      </wvobject>
+   </wvobject>
+</wave_config>
